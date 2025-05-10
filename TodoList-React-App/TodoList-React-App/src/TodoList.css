@@ -1,0 +1,36 @@
+.TodoList{
+    background-color: rgb(181, 245, 234);
+    border: 1px solid grey;
+    border-radius: 10px;
+    min-width: 350px;
+    height: auto;
+    padding: 5px 10px;
+}
+
+.heading{
+    text-align: center;
+}
+
+.inputForm{
+    display: flex;
+}
+
+.inputField{
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0px 4px;
+    width: 70%;
+}
+
+.addTaskBtn{
+    background-color: purple;
+    color: white;
+    width: 28%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-size: 15px;
+    padding: 0px;
+}

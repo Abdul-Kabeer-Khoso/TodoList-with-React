@@ -1,0 +1,38 @@
+.Todo{
+    width: 96%;
+    height: auto;
+    background-color: rgb(2, 146, 2);
+    border-radius: 5px;
+    border: 1px solid rgb(1, 75, 7);
+    color: white;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TaskText{
+    text-align: left;
+    margin: 0;
+}
+
+.deleteBtn:hover{
+    cursor: pointer;
+}
+
+.clearAllTaskBtn{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid grey;
+    background-color: rgb(240, 240, 240);
+}
+
+.clearAllTaskBtnBox{
+    display: flex;
+    justify-content: center;
+}
